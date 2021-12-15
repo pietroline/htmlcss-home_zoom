@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #eee;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_column{
+    flex-direction: column;
+}
+
+.box{
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    color: grey;
+}
+
+.flex_center{
+    justify-content: center;
+    align-items: center;
+}
+
+.search_box{
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 5px;
+    color: grey;
+}
+
+.search_box i{
+    position: relative;
+    top: 2px;
+}
+
+.input_search{
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    font-size: 18px;;
+}
+
+.nav_main i{
+    font-size: 30px;
+}
+
+
+.nav_main{
+    justify-content: space-between;
+    width: 40%;
+}
+
+.account{
+    background-color: #53a398;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+
+.settings{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.content_left{
+    width: 40%;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.item{
+    width: 50%;
+}
+
+.item_btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 40px;
+}
+
+.item_btn.btn_orange{
+    background-color: orange;
+}
+
+.content_right{
+    width: 30%;
+}
+
+.datetime{
+    height: 30%;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("img/sfondo.png");
+    background-size: cover;
+    color: #fff;
+}
+
+.events{
+    height: 70%;
+    border: 1px solid grey;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.content_right{
+    width: 30%;
+    margin-left: 100px;
+    height: 50%;
+}
